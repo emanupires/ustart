@@ -21,11 +21,12 @@ nav .container-fluid {
 }
 
 main .banner {
-    background-image: url(../resources/imagens/bgum.jpg);
+    background-image: url(../resources/imagens/banner1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 500px;
+    height: 80vh;
+    margin-top: -20px;
 }
 
 main .banner h1, main .titulo {
@@ -66,9 +67,9 @@ main .banner-2 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: bottom;
-    background-attachment: fixed;
-    height: 400px;
+    height: 70vh;
     display: flex;
+    margin-bottom: -20px;
 }
 
 #container_formulario {
