@@ -50,6 +50,15 @@ main .container-eventos {
 main .titulo {
     color: #d1d0d0;
 }
+
+h1 {
+    color: black;
+}
+
+.texto {
+    color: white;
+}
+
 main .img-evento {
     height: 300px;
     width: 100%;
@@ -86,15 +95,15 @@ main .banner-2 {
     border-radius: 10px 10px 0 0;
 }
 
-#lista_inscricoes, .eventos_container {
+#lista_inscricoes, .eventos_container, .sobre_containter {
     display: flex;
     width: 100%;
     margin: 5em 0;
     justify-content: center;
-    text-align: center;
+    text-align: left;
 }
 
-.lista_texto, .eventos_lista{
+.lista_texto, .eventos_lista, .div_container{
     max-width: 1170px; 
 }
 
@@ -109,6 +118,12 @@ main .banner-2 {
 
 #container_pagina {
     background-color: transparent;
+}
+
+.texto_sobre {
+    font-size: 32px;
+    font-weight: 700;
+    padding-bottom: 16px;
 }
 
 @media screen and (max-width: 575px) {
