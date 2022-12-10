@@ -3,7 +3,7 @@ body {
     --azul-Marinho: #2d6073;
     --azul: #00a8c6;
     margin: 0;
-    background-color: #f1f0ee!important;
+    background-color: #131616 !important;
 }
 
 nav .navbar-brand, nav .nav-link {
@@ -36,16 +36,19 @@ main .banner h1, main .titulo {
 }
 
 main {
-    background-color: #f1f0ee;
+    background-color: #131616;
 }
 
 main .container-eventos {
-    background: white;
+    background: #d1d0d0;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.5px);
     -webkit-backdrop-filter: blur(6.5px);
     margin-bottom: 10px;
+}
+main .titulo {
+    color: #d1d0d0;
 }
 main .img-evento {
     height: 300px;
@@ -74,11 +77,38 @@ main .banner-2 {
 
 #container_formulario {
     border-radius: 10px;
+    background-color: #d1d0d0;
+
 }
 #container_titulo {
     margin-left: -15px;
     margin-right: -15px;
     border-radius: 10px 10px 0 0;
+}
+
+#lista_inscricoes, .eventos_container {
+    display: flex;
+    width: 100%;
+    margin: 5em 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.lista_texto, .eventos_lista{
+    max-width: 1170px; 
+}
+
+.container {
+    background-color: #d1d0d0;
+
+}
+
+.container form, .card {
+    padding: 16px;
+}
+
+#container_pagina {
+    background-color: transparent;
 }
 
 @media screen and (max-width: 575px) {

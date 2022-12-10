@@ -6,11 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Realizar Inscrição</title>
-        <link rel="stylesheet" href="../style/estilo.css">
+        <link rel="stylesheet" href="../../../style/estilo.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body class="">
-        <div class="container bg-white p-3 pt-0 mt-5 mb-5" id="container_formulario">
+        <div class="container p-3 pt-0 mt-5 mb-5" id="container_formulario">
             <div class="card-header mb-3 text-center" id="container_titulo">
                 <h1>Realizar Inscrição</h1>
             </div>
@@ -44,7 +44,9 @@
             </form>
         </div>
         <section id = "lista_inscricoes" >
-            {{lista_inscricoes}}
+            <div class="lista_texto">
+                {{lista_inscricoes}}
+             </div>
         </section>
     </body>
 </html>
